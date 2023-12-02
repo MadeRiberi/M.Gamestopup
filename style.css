@@ -147,8 +147,8 @@ nav ul li a:hover
 
 .popup 
 {
-    margin: 70px auto;
-    padding: 20px;
+    margin: 10px auto;
+    padding: 30px;
     background: var(--dark-blue);
     border-radius: 5px;
     width: 30%;
@@ -329,4 +329,24 @@ footer
     {
         width: 50%;
     }
+
+    .pesan
+    {
+    background-color: var(--green);
+    padding: 0.9%;
+    border-radius: 10px;
+    }
+
+    .popup 
+{
+    margin: 10px auto;
+    padding: 30px;
+    background: var(--dark-blue);
+    border-radius: 5px;
+    width: 30%;
+    position: relative;
+    transition: all 5s ease-in-out;
+}
+
+    
 }
